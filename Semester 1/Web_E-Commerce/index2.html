@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Olan's Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  background-color: lightcyan;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: rgb(0, 0, 0);
+    min-width: 200px;
+}
+
+.dropdown-child a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+.tapnav-right {
+    float: right;
+}
+
+.judul {
+    position: relative;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+</style>
+</head>
+<body>
+
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+        <div class="dropdown">
+      <button href="#" class="w3-button w3-block w3-black">Kategori</button>
+      <div class="dropdown-child">
+        <a href="fashion.html" class="w3-button w3-block w3-black">Fashion</a>
+        <a href="Elektronik.html" class="w3-button w3-block">Elekktronik</a>
+        <a href="otomotif.html" class="w3-button w3-block">Otomotif</a>
+        <a href="buku.html" class="w3-button w3-block">Buku</a>
+        <a href="gaming.html" class="w3-button w3-block">Gaming</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="tapnav-right">
+        <button href="#" class="w3-button w3-block w3-black">Login</button>
+    </div>
+<h1 align="center"><p class="judul">Selamat datang</p></h1>
+
+<img src="https://img.freepik.com/premium-vector/e-commerce-icon-robotic-hand-internet-shopping-online-purchase-add-cart_127544-586.jpg?w=2000" style="width:100%">
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">OLAN</a></p>
+</footer>
+</body>
+</html>
